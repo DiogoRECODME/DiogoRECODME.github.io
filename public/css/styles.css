@@ -1,0 +1,49 @@
+:root
+{
+    --mainblue: #5299D3;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.nav-link:hover
+{
+    color: red !important;
+}
+
+.navbar-blue
+{
+    background-color: var(--mainblue);
+}
+
+.bg-blue
+{
+    background-color: var(--mainblue);
+}
+
+.navbar-logo
+{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+.form
+{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.name-form
+{
+    padding-bottom: 10px;
+}
+
+.error
+{
+    color: red;
+    display: none;
+}

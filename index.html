@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Diogo Reis - Portfólio</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" contents="Diogo Reis">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="public/css/styles.css">
+
+        <style>
+        </style>
+
+        <!--
+        <script>
+
+            function PUT()
+            {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function()
+                {
+                    if(this.readyState == 4 && this.status)
+                    {
+                        // Typicaç actopm to be performed when
+                    }
+                };
+
+                var obj = {"name":"tuna"};
+                var controller = "dietaryrestriction";
+                xhttp.open("PUT", 'https://localhost:443');
+                xhttp.setRequestHeader('Content-type', '');
+                xhttp.send(JSON.stringify(obj));
+            }
+
+        </script>
+        -->
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-blue bg-blue">
+                <a class="navbar-brand" href="index.html">
+                    <img class="navbar-logo" src="public/images/logo.jpg">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Hobbies</a>
+                        </li>
+                    </ul>                
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="form">
+                <div class="name-form">       
+                    <label>Name</label>         
+                    <input type="text" id="name-input">
+                    <span id="name-error-span" class="error">Introduza um nome</span>
+                </div>
+            </div>            
+            <button id="btn" class="buttone" name="button-1">Click Here</button>
+        </main>
+
+        <footer>
+        </footer>
+
+        <!--
+        <script>
+            function isFilled(data)
+            {
+                for(var i = 0; i < 10; i++)
+                {
+                    if(data[i] == null) return false;
+                }                
+            }
+
+            var testesVF = [];
+            
+            while(!isFilled(testesVF))
+            {
+                var pos = Math.floor(Math.random()*11);
+
+                if(testesVF[pos] == null)
+                {
+                    testesVF[pos] = Math.floor(Math.random()*2);
+                }
+            }
+
+            console.log(testesVF);
+
+            var input = document.getElementsByTagName("btn");
+            btn.addEventListener("click()", ()=>alert("olá"));
+        </script>
+        -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="public/js/scripts.js"></script>
+
+    </body>
+
+</html>
